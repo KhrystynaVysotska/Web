@@ -5,13 +5,13 @@ body {
 header {
   margin-bottom: 50px;
 }
-.container {
+.container__first {
   padding: 20px;
 }
 .container_second {
   padding: 40px 20px 20px 20px;
 }
-.navigation_bar {
+.navigation-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -55,13 +55,13 @@ nav {
 .menu__item:hover {
   color: #202336;
 }
-.hamburger {
+.navigation-bar__hamburger {
   display: block;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
 }
-.hamburger-burger {
+.navigation-bar__hamburger-line {
   width: 30px;
   margin: 3px 9px 3px 0;
   height: 5px;
@@ -109,13 +109,13 @@ nav {
   border-radius: 8px;
   cursor: pointer;
 }
-.content {
+.content-hero {
   margin-top: 55px;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.guides {
+.content__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,11 +126,11 @@ nav {
   height: 20px;
   margin-left: 45px;
 }
-.text-component {
+.content__text-passage {
   margin-top: 4%;
   margin-bottom: 39px;
 }
-.button-and-element {
+.content__button-and-element {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -142,13 +142,13 @@ nav {
   height: 20px;
   transform: rotate(20.42deg);
 }
-.guides h1 {
+.content__text h1 {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
 }
-.guides p {
+.content__text p {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -156,7 +156,7 @@ nav {
   color: #7d7987;
   line-height: 30px;
 }
-.download-button {
+.content__download-button {
   border: 1px solid #fb8f1d;
   width: 10.25em;
   height: 3em;
@@ -172,12 +172,12 @@ nav {
   border-radius: 8px;
   cursor: pointer;
 }
-.small-element_and_image {
+.content__image-and-element {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.main-image {
+.content__main-image {
   width: 299px;
   height: 342px;
 }
@@ -192,7 +192,7 @@ nav {
   background-color: #f8f8f8;
   width: 100vw;
 }
-.second-page_content {
+.second-content {
   margin-top: 5%;
   display: flex;
   flex-direction: column;
@@ -233,13 +233,13 @@ nav {
   font-size: 20px;
   padding: 30px;
 }
-.name_surname {
+.author__name-surname {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
 }
-.foundation {
+.author__foundation {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -248,7 +248,7 @@ nav {
 .third_page {
   margin-bottom: 10%;
 }
-.third_container {
+.container-third {
   padding: 5% 13%;
 }
 .element5 {
@@ -355,7 +355,7 @@ footer {
   color: #848484;
   line-height: 28px;
 }
-.footer_logo {
+.copyright_logo {
   width: 44px;
   height: 44px;
 }
@@ -371,7 +371,7 @@ footer {
 }
 
 .register-button:hover,
-.download-button:hover {
+.content__download-button:hover {
   border: 1px solid #fb8f1d;
   background-color: #fff;
   color: #fb8f1d;
@@ -388,11 +388,11 @@ footer {
   }
 }
 @media screen and (min-width: 535px) {
-  .main-image {
+  .content__main-image {
     width: 399px;
     height: 342px;
   }
-  .hamburger-burger {
+  .navigation-bar__hamburger-line {
     width: 36px;
     margin: 3px;
   }
@@ -435,18 +435,18 @@ footer {
     width: 30px;
     height: 30px;
   }
-  .content {
+  .content-hero {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
-  .main-image {
+  .content__main-image {
     width: 487px;
     height: 430px;
   }
-  .guides {
+  .content__text {
     width: 45%;
   }
   .image-and-element {
@@ -454,12 +454,15 @@ footer {
   }
 }
 @media screen and (min-width: 990px) {
-  .second-page_content {
+  .second-content {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  nav {
+    left: 8%;
   }
   .copyright {
     display: flex;
@@ -494,10 +497,10 @@ footer {
   }
 }
 @media screen and (min-width: 1010px) {
-  .container {
+  .container__first {
     padding: 20px 100px;
   }
-  .main-image {
+  .content__main-image {
     width: 487px;
     height: 430px;
   }
@@ -510,13 +513,13 @@ footer {
   .blog {
     margin-bottom: 0;
   }
-  .text-component h1 {
+  .content__text-passage h1 {
     font-size: 36px;
   }
-  .text-component p {
+  .content__text-passage p {
     font-size: 17px;
   }
-  .hamburger {
+  .navigation-bar__hamburger {
     display: none;
   }
   .container_second {
@@ -529,6 +532,7 @@ footer {
     background-position: left 120px center;
   }
   nav {
+    left: 0;
     position: relative;
   }
   .nav-ul {
@@ -543,17 +547,17 @@ footer {
   #last-link {
     padding-right: 0;
   }
-  .container {
+  .container__first {
     padding: 20px 197px;
   }
-  .content {
+  .content-hero {
     align-items: center;
   }
-  .guides {
+  .content__text {
     width: 50%;
     margin-right: 5%;
   }
-  .main-image {
+  .content__main-image {
     width: 599px;
     height: 542px;
   }
