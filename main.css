@@ -400,7 +400,6 @@ footer {
 @media screen and (min-width: 768px) {
   header {
     height: 100vh;
-    display: contents;
   }
   .blogs {
     display: flex;
