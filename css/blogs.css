@@ -1,0 +1,114 @@
+.third_page {
+  margin-bottom: 10%;
+}
+.container-third {
+  padding: 5% 9%;
+}
+.element5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.element6 {
+  padding: 8% 0 0 18%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.element6 img {
+  width: 19.96px;
+  height: 20px;
+}
+.element5 img {
+  width: 20.05px;
+  height: 20px;
+  padding-right: 25%;
+}
+.blogs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog {
+  width: 261px;
+  height: 446px;
+  margin-bottom: 60px;
+}
+.blog:last-child {
+  margin-bottom: 15px;
+}
+.blog_img img {
+  display: block;
+}
+.blog h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+}
+.blog p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+.blog a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: #fb8f1d;
+  text-decoration: none;
+}
+.blog a:hover {
+  background: linear-gradient(to bottom, orangered, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .blogs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .third_page {
+    background-image: url(../images/element7.svg);
+    background-repeat: no-repeat;
+    background-position: left 3% top 65%;
+    margin-bottom: 0;
+  }
+  .blog:last-child {
+    margin-bottom: 60px;
+  }
+  .element6 {
+    padding: 0 0 0 18%;
+  }
+}
+
+@media screen and (min-width: 1373px) {
+  .container-third {
+    padding: 5% 13%;
+  }
+  .element6 {
+    padding: 8% 0 0 18%;
+  }
+  .blog {
+    margin-bottom: 0;
+  }
+  .blog:last-child {
+    margin-bottom: 0;
+  }
+  .third_page {
+    height: 100vh;
+    background-position: left 7% top 65%;
+    margin-bottom: 10%;
+  }
+}

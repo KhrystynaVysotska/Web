@@ -1,0 +1,40 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.panel h1 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 0;
+}
+.panel a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  color: #fb8f1d;
+  text-decoration: none;
+}
+.panel a:hover {
+  background: linear-gradient(to bottom, orangered, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+  }
+  .panel h1 {
+    margin-bottom: 0.83em;
+    font-size: 36px;
+  }
+}

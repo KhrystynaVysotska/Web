@@ -1,0 +1,136 @@
+.container_second {
+  padding: 40px 20px 20px 20px;
+}
+.second-page {
+  background-color: #f8f8f8;
+  width: 100vw;
+}
+.second-content {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.second-page h1 {
+  text-align: center;
+  font-size: 36px;
+}
+.author {
+  padding-left: 10px;
+}
+.author-photo {
+  height: 358px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.star {
+  width: 23px;
+  height: 25px;
+  margin: 7px;
+}
+.quotation {
+  text-align: left;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px;
+}
+.author__name-surname {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.author__foundation {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 360px) {
+  .quotation {
+    padding: 30px;
+  }
+  .author {
+    padding-left: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .second-content {
+    flex-direction: row;
+    padding: 0 30px;
+  }
+  .author-photo {
+    order: 1;
+  }
+  .stars {
+    justify-content: flex-start;
+  }
+  .quotation {
+    padding-left: 0;
+  }
+  .author {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 990px) {
+  .second-content {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .quotation {
+    line-height: 36px;
+    font-size: 24px;
+  }
+  .testimonial {
+    width: 65%;
+  }
+  .second-page h1 {
+    text-align: left;
+  }
+  .author-photo {
+    order: 1;
+    width: 384px;
+    height: 491px;
+    margin-bottom: 0;
+  }
+  .container_second {
+    padding: 20px 130px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .second-content {
+    padding: 0;
+  }
+  .container_second {
+    padding: 20px 90px;
+  }
+}
+@media screen and (min-width: 1373px) {
+  .container_second {
+    padding: 20px 281px;
+  }
+  .second-page {
+    height: 100vh;
+    background-image: url(../images/element4.svg);
+    background-repeat: no-repeat;
+    background-position: left 120px center;
+  }
+}
