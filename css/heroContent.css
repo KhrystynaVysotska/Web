@@ -71,6 +71,11 @@
     margin-bottom: 39px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .hero__inner {
+    padding: 0 3% 0 0;
+  }
+}
 @media screen and (min-width: 1373px) {
   .hero__content {
     align-items: center;

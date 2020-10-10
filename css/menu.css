@@ -40,7 +40,8 @@ nav {
     left: 8%;
   }
 }
-@media screen and (min-width: 1373px) {
+
+@media screen and (min-width: 1024px) {
   nav {
     left: 0;
     position: relative;
