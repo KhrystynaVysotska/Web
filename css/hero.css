@@ -1,97 +1,56 @@
-.content-hero {
-  margin-top: 35px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+.hero {
+  margin-bottom: 50px;
 }
-.content__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
+.container_first {
+  padding: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
-.content__text-passage {
-  margin-top: 4%;
-  margin-bottom: 16px;
+.small-element-1 {
+  width: 15px;
+  height: 15px;
+  margin-left: 45px;
 }
-.content__text h1 {
-  font-family: "Playfair Display", serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 35px;
+.small-element-2 {
+  margin-top: 20px;
+  width: 20.05px;
+  height: 20px;
+  transform: rotate(20.42deg);
+  margin-right: 2px;
 }
-.content__text p {
-  font-family: "Mulish", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 17px;
-  color: #7d7987;
-  line-height: 30px;
-}
-.content__button-and-element {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 14%;
-}
-.content__image-and-element {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.content__main-image {
-  width: 299px;
-  height: 342px;
-}
-@media screen and (min-width: 535px) {
-  .content__main-image {
-    width: 399px;
-    height: 342px;
-  }
+.small-element-3 {
+  width: 16.04px;
+  margin-top: 25px;
+  height: 16px;
+  transform: rotate(9.99deg);
+  margin-right: 12px;
 }
 @media screen and (min-width: 768px) {
-  .content-hero {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  .hero {
+    height: 100vh;
+    margin-bottom: 0;
   }
-  .content__main-image {
-    width: 387px;
-    height: 330px;
+  .container_first {
+    padding: 20px 40px;
   }
-  .content__text h1 {
-    font-size: 34px;
+  .small-element-3 {
+    margin-right: 0;
   }
 }
 @media screen and (min-width: 1010px) {
-  .content__main-image {
-    width: 487px;
-    height: 430px;
+  .container_first {
+    padding: 20px 100px;
   }
-  .content-hero {
-    margin-top: 55px;
+  .small-element-1 {
+    width: 19.96px;
+    height: 20px;
   }
-  .content__text-passage {
-    margin-top: 4%;
-    margin-bottom: 39px;
-}
+  .small-element-3 {
+    margin-left: 15px;
+  }
 }
 @media screen and (min-width: 1373px) {
-  .content__text-passage h1 {
-    font-size: 36px;
-  }
-  .content__text-passage p {
-    font-size: 17px;
-  }
-  .content-hero {
-    align-items: center;
-  }
-  .content__text {
-    width: 50%;
-    margin-right: 5%;
-  }
-  .content__main-image {
-    width: 599px;
-    height: 542px;
+  .container_first {
+    padding: 20px 197px;
   }
 }

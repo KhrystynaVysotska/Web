@@ -1,54 +1,58 @@
-header {
-  margin-bottom: 50px;
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
-.container__first {
-  padding: 20px;
+.navigation-bar__hamburger {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+  cursor: pointer;
 }
-.small-element-1 {
-  width: 15px;
-  height: 15px;
-  margin-left: 45px;
+.navigation-bar__hamburger-line {
+  width: 30px;
+  margin: 3px 9px 3px 0;
+  height: 5px;
+  background: #000;
+  border-radius: 5px;
 }
-.small-element-2 {
-  margin-top: 20px;
-  width: 20.05px;
-  height: 20px;
-  transform: rotate(20.42deg);
-  margin-right: 2px;
+.logo {
+  display: none;
 }
-.small-element-3 {
-  width: 16.04px;
-  margin-top: 25px;
-  height: 16px;
-  transform: rotate(9.99deg);
-  margin-right: 12px;
+.logo img {
+  width: 100%;
+  height: auto;
 }
-
+@media screen and (min-width: 535px) {
+  .navigation-bar__hamburger-line {
+    width: 36px;
+    margin: 3px;
+  }
+}
 @media screen and (min-width: 768px) {
-  .container__first {
-    padding: 20px 40px;
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 30px;
+    height: 30px;
   }
-  .small-element-3 {
-    margin-right: 0;
+  .header {
+    padding-bottom: 30px;
   }
 }
-@media screen and (min-width: 1010px) {
-  .container__first {
-    padding: 20px 100px;
-  }
-  .small-element-3 {
-    margin-left: 15px;
-  }
-  .small-element-1 {
-    width: 19.96px;
-    height: 20px;
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-bottom: 0;
   }
 }
 @media screen and (min-width: 1373px) {
-  header {
-    height: 100vh;
-  }
-  .container__first {
-    padding: 20px 197px;
+  .navigation-bar__hamburger {
+    display: none;
   }
 }

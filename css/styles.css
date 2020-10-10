@@ -1,12 +1,10 @@
 @import "./header.css";
-@import "./navbar.css";
-@import "./hamburger.css";
 @import "./menu.css";
-@import "./logo.css";
 @import "./buttons.css";
-@import "./hero.css";
+@import "./heroContent.css";
 @import "./testimonial.css";
 @import "./blogpanel.css";
 @import "./blogs.css";
 @import "./footer.css";
 @import "./global.css";
+@import "./hero.css";

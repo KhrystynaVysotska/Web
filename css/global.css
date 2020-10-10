@@ -1,4 +1,29 @@
+:root {
+  font-size: 14px;
+}
 body {
   margin: 0;
   padding: 0;
+}
+.default_button {
+  border: 1px solid #fb8f1d;
+  width: 6.25em;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  height: 2.75em;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .default_button {
+    width: 8.25em;
+  }
+}
+@media screen and (min-width: 1373px) {
+  :root {
+    font-size: 17px;
+  }
 }

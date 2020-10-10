@@ -1,5 +1,7 @@
 .container_second {
   padding: 40px 20px 20px 20px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .second-page {
   background-color: #f8f8f8;
@@ -14,7 +16,7 @@
 }
 .second-page h1 {
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 .author {
   padding-left: 10px;
@@ -41,23 +43,18 @@
 .quotation {
   text-align: left;
   font-family: "Mulish", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 10px;
 }
 .author__name-surname {
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375rem;
   margin-bottom: 0;
 }
 .author__foundation {
   font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-top: 10px;
 }
 
@@ -73,6 +70,9 @@
   .second-content {
     flex-direction: row;
     padding: 0 30px;
+  }
+  .second-page {
+    height: 100vh;
   }
   .author-photo {
     order: 1;

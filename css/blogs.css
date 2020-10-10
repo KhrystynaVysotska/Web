@@ -3,6 +3,8 @@
 }
 .container-third {
   padding: 5% 9%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .element5 {
   width: 100%;
@@ -44,14 +46,12 @@
 }
 .blog h1 {
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 19px;
   line-height: 30px;
 }
 .blog p {
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
@@ -59,7 +59,6 @@
 }
 .blog a {
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 15px;
   line-height: 28px;

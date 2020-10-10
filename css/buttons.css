@@ -2,67 +2,32 @@
   display: flex;
   flex-direction: row;
 }
-.login-button {
-  border: 1px solid #fb8f1d;
-  width: 6.25em;
+.login {
   background-color: inherit;
   color: #fb8f1d;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
   margin-right: 18px;
-  outline: none;
-  height: 2.75em;
-  box-sizing: border-box;
-  border-radius: 8px;
-  cursor: pointer;
 }
-.register-button {
-  border: 1px solid #fb8f1d;
-  width: 6.25em;
-  height: 2.75em;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  outline: none;
+.register {
   color: #fff;
-  font-weight: 500;
-  font-size: 15px;
   background-color: #fb8f1d;
-  border-radius: 8px;
-  cursor: pointer;
 }
-.content__download-button {
-  border: 1px solid #fb8f1d;
+.default_button.download {
   width: 10.25em;
   height: 3em;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  outline: none;
   color: #fff;
   font-weight: 600;
   margin-right: 18px;
   font-size: 16px;
   background-color: #fb8f1d;
-  border-radius: 8px;
-  cursor: pointer;
 }
-.content__download-button:hover,
-.register-button:hover {
+.download:hover,
+.register:hover {
   border: 1px solid #fb8f1d;
   background-color: #fff;
   color: #fb8f1d;
 }
-.login-button:hover {
+.login:hover {
   border: 1px solid #fb8f1d;
   color: #fff;
   background-color: #fb8f1d;
-}
-@media screen and (min-width: 1024px) {
-  .register-button,
-  .login-button {
-    width: 8.25em;
-  }
 }
