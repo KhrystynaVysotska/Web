@@ -71,9 +71,6 @@
     flex-direction: row;
     padding: 0 30px;
   }
-  .second-page {
-    height: 100vh;
-  }
   .author-photo {
     order: 1;
   }
@@ -128,7 +125,6 @@
     padding: 20px 281px;
   }
   .second-page {
-    height: 100vh;
     background-image: url(../images/element4.svg);
     background-repeat: no-repeat;
     background-position: left 120px center;
