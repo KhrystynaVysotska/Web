@@ -19,12 +19,12 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container container__first">
-      <header>
-        <div class="navigation-bar">
+    <section class="hero">
+      <div class="container container_first">
+        <header class="header">
           <div class="navigation-bar__hamburger" id="hamburger">
             <div class="navigation-bar__hamburger-line"></div>
             <div class="navigation-bar__hamburger-line"></div>
@@ -52,22 +52,22 @@
             <img src="./images/logo.svg" alt="logo" />
           </div>
           <div class="buttons">
-            <button type="button" name="button" class="login-button">
+            <button type="button" name="button" class="default_button login">
               Login
             </button>
-            <button type="button" name="button" class="register-button">
+            <button type="button" name="button" class="default_button register">
               Register
             </button>
           </div>
-        </div>
-        <div class="content content-hero">
-          <div class="content__text">
+        </header>
+        <div class="hero__content">
+          <div class="hero__inner">
             <img
               src="./images/element3.svg"
               alt="el1"
               class="small-element-1"
             />
-            <div class="content__text-passage">
+            <div class="hero__inner__passage">
               <h1>Guides by Thousand Sunny</h1>
               <p>
                 Packed with tips and advice from our on-the-ground experts, our
@@ -75,8 +75,12 @@
                 before and during a trip.
               </p>
             </div>
-            <div class="content__button-and-element">
-              <button type="button" name="button" class="content__download-button">
+            <div class="hero__download">
+              <button
+                type="button"
+                name="button"
+                class="default_button download"
+              >
                 Download
               </button>
               <img
@@ -86,17 +90,17 @@
               />
             </div>
           </div>
-          <div class="content__image-and-element">
+          <div class="hero__image">
             <img
               src="./images/Thousand-03.svg"
               alt="header_picture"
-              class="content__main-image"
+              class="image"
             />
             <img src="./images/element.svg" alt="el3" class="small-element-3" />
           </div>
         </div>
-      </header>
-    </div>
+      </div>
+    </section>
     <section class="page second-page">
       <div class="container container_second">
         <h1>Testimonials</h1>
