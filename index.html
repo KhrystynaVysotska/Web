@@ -31,8 +31,8 @@
             <div class="navigation-bar__hamburger-line"></div>
           </div>
           <div class="menu">
-            <nav>
-              <ul id="nav-ul" class="nav-ul" onclick="myFunction(event)">
+            <nav id="nav">
+              <ul class="nav-ul" onclick="myFunction(event)">
                 <li>
                   <a href="#" class="menu__item active" id="first-link">Home</a>
                 </li>
@@ -192,26 +192,31 @@
           </div>
         </div>
         <div class="element6">
-          <img src="./images/element4.svg" alt="loader" />
+          <img
+            src="./images/element4.svg"
+            alt="loader"
+          />
         </div>
       </div>
     </section>
-    <footer>
-      <div class="copyright">
-        <img class="copyright_logo" src="./images/logo.svg" alt="logo" />
-        <p>
-          ©2020 Thousand Sunny. All rights reserved
-        </p>
-      </div>
-      <hr />
-      <div class="social_media">
-        <img src="./images/twitter.svg" alt="twitter" />
-        <img src="./images/facebook.svg" alt="facebook" />
-        <img src="./images/instagram.svg" alt="instagram" />
-        <img src="./images/linkedin.svg" alt="linkedin" />
-        <img src="./images/youtube.svg" alt="youtube" />
-      </div>
-    </footer>
+    <section class="footer">
+      <footer>
+        <div class="copyright">
+          <img class="copyright_logo" src="./images/logo.svg" alt="logo" />
+          <p>
+            ©2020 Thousand Sunny. All rights reserved
+          </p>
+        </div>
+        <hr />
+        <div class="social_media">
+          <img src="./images/twitter.svg" alt="twitter" />
+          <img src="./images/facebook.svg" alt="facebook" />
+          <img src="./images/instagram.svg" alt="instagram" />
+          <img src="./images/linkedin.svg" alt="linkedin" />
+          <img src="./images/youtube.svg" alt="youtube" />
+        </div>
+      </footer>
+    </section>
     <script type="text/javascript">
       function myFunction(e) {
         var elems = document.querySelectorAll(".active");
