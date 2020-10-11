@@ -3,8 +3,11 @@ hr {
   height: 0.6px;
   color: #c4c4c4;
 }
-footer {
+.footer {
   background-color: #f8f8f8;
+  width: 100vw;
+}
+footer {
   padding: 20px 5%;
   max-width: 1140px;
   margin: 0 auto;

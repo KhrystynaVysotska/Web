@@ -2,19 +2,23 @@ ul {
   padding: 0;
 }
 nav {
-  display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
-  top: 8%;
+  position: fixed;
+  top: 0;
   left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #FEFEFA;
 }
 .nav-ul {
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   list-style-type: none;
+  width: 100%;
+  height: 100%;
 }
 .nav-ul li a {
   display: inline-block;
@@ -29,12 +33,6 @@ nav {
 .menu__item:hover {
   color: #202336;
 }
-.nav-ul.show {
-  display: flex;
-  top: 100%;
-  width: 100%;
-  background: #fff;
-}
 @media screen and (min-width: 990px) {
   nav {
     left: 8%;
@@ -43,14 +41,19 @@ nav {
 
 @media screen and (min-width: 1024px) {
   nav {
+    display: flex;
+    width: auto;
     left: 0;
+    top: 0;
     position: relative;
+    background-color: transparent;
+    height: auto;
   }
   .nav-ul {
-    display: flex;
     flex-direction: row;
     margin-left: 0;
     position: relative;
+    height: 0;
   }
   #first-link {
     padding-left: 0;

@@ -52,7 +52,6 @@
 }
 .blog p {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
   font-size: 15px;
   line-height: 26px;
   margin-bottom: 40px;
@@ -64,11 +63,6 @@
   line-height: 28px;
   color: #fb8f1d;
   text-decoration: none;
-}
-.blog a:hover {
-  background: linear-gradient(to bottom, orangered, gold);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 @media screen and (min-width: 768px) {
   .blogs {

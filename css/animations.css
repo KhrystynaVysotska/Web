@@ -1,0 +1,83 @@
+nav {
+  transition: all 0.5s linear;
+  transform: translateX(-100%);
+}
+nav.show {
+  transform: translateX(0);
+}
+.default_button {
+  transition: background-color 0.4s ease-out;
+}
+.navigation-bar__hamburger-line {
+  transition: all 0.3s ease-in-out;
+}
+.navigation-bar__hamburger.opened .navigation-bar__hamburger-line:nth-child(2) {
+  background: transparent;
+}
+.navigation-bar__hamburger.opened .navigation-bar__hamburger-line:first-child {
+  transform: rotate(45deg) translate(11px, 3px);
+}
+.navigation-bar__hamburger.opened .navigation-bar__hamburger-line:last-child {
+  transform: rotate(-45deg) translateX(7.5px);
+}
+.blog {
+  transition: all 0.3s ease-out;
+}
+.blog:hover {
+  transform: scale(1.05);
+}
+.panel a {
+  transition: all 0.3s ease-out;
+}
+.panel a:hover {
+  color: #d36e04;
+  transform: scale(1.02);
+}
+.blog a {
+  transition: all 0.3s ease-out;
+}
+.blog a:hover {
+  color: #d36e04;
+}
+.social_media img {
+  transition: all 0.2s linear;
+}
+.social_media img:hover {
+  transform: scale(1.3);
+}
+.star {
+  transition: all 0.2s linear;
+}
+.star:hover {
+  transform: scale(1.2) rotate(45deg);
+}
+.element6 img {
+  transition: all 0.2s linear;
+}
+.element6 img:hover {
+  transform: rotate(360deg);
+}
+.small-element-1 {
+  transition: all 0.2s linear;
+}
+.small-element-1:hover {
+  transform: rotate(360deg);
+}
+.small-element-2 {
+  transition: all 0.2s linear;
+}
+.small-element-2:hover {
+  transform: rotate(360deg);
+}
+.small-element-3 {
+  transition: all 0.2s linear;
+}
+.small-element-3:hover {
+  transform: rotate(360deg);
+}
+@media screen and (min-width: 1024px) {
+  nav {
+    transform: none;
+    transition: none;
+  }
+}
