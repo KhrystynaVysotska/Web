@@ -5,3 +5,7 @@ hamburger.addEventListener("click", () => {
   nav.classList.toggle("show");
   hamburger.classList.toggle("opened");
 });
+nav.addEventListener("click", () => {
+  nav.classList.toggle("show");
+  hamburger.classList.toggle("opened");
+});

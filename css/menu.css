@@ -9,7 +9,7 @@ nav {
   left: 0;
   height: 100vh;
   width: 250px;
-  background-color: #FEFEFA;
+  background-color: #fefefa;
 }
 .nav-ul {
   display: flex;
@@ -32,6 +32,9 @@ nav {
 }
 .menu__item:hover {
   color: #202336;
+}
+nav.show .nav-ul .ul {
+  display: block;
 }
 @media screen and (min-width: 990px) {
   nav {
