@@ -27,10 +27,13 @@ nav {
   text-decoration: none;
   padding: 10px 20px;
 }
-.menu__item.active {
+.menu__item:hover {
   color: #202336;
 }
-.menu__item:hover {
+.menu__item:active {
+  color: #202336;
+}
+.menu__item:focus {
   color: #202336;
 }
 nav.show .nav-ul .ul {
